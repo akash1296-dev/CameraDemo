@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AppWidgetCollectionDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CalendarView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EasyPermit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EasyPermit_Test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/In-App-Review-API-Demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Kotlin-MVVM-Architecture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lab-Intent-FileProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LiveFeed" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Material-Calendar-View" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProlifCalendar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WebcamFeed" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/alkaa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cheesesquare" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hms-location-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kotlin-data-binding" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/location-kit-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/parenttown_android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sunflower" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tooltip-view" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/albumListFragment">
+
+    <fragment
+        android:id="@+id/albumListFragment"
+        android:name="com.example.camerademo.AlbumListFragment"
+        android:label="fragment_album_list"
+        tools:layout="@layout/fragment_album_list" >
+
+        <action
+            android:id="@+id/action_albumListFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.camerademo.CameraFragment"
+        android:label="CameraFragment" >
+
+        <action
+            android:id="@+id/action_camera_to_permissions"
+            app:destination="@id/permissions_fragment"
+            app:popUpTo="@id/cameraFragment"
+            app:popUpToInclusive="true"/>
+
+        <action
+            android:id="@+id/action_cameraFragment_to_galleryFragment2"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.camerademo.GalleryFragment"
+        android:label="GalleryFragment" >
+        <argument
+            android:name="root_directory"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/permissions_fragment"
+        android:name="com.example.camerademo.CameraFragment"
+        android:label="PermissionsFragment" >
+
+        <action
+            android:id="@+id/action_permissions_to_camera"
+            app:destination="@id/cameraFragment"
+            app:popUpTo="@id/permissions_fragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+</navigation>
